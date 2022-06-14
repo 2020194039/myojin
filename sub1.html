@@ -1,0 +1,527 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+   <script
+      src="https://kit.fontawes ome.com/f81512f541.js"
+      crossorigin="anonymous"
+    ></script>
+
+    
+    <style>
+      *{
+text-decoration: none;}
+      body {
+            font-family: "Noto Sans KR", sans-serif;}
+  
+
+.header {
+  width: 100%;
+  height: 100px;
+  line-height: 70px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.header_img {text-align: center;
+  padding-top: 50px;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 100px;
+
+}
+
+.header a {
+  text-decoration: none;
+  color: #474747;
+}
+.header a:hover {
+  color: #09459c;
+  text-decoration: underline;
+}
+
+.greeting {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 400px;
+  float: left;
+  margin: 0 auto;
+}
+.greeting2 {
+  width: 500px;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #474747;
+  text-align: left;
+
+  padding-top: 50px;
+  padding-bottom: 30px;
+  float: left;
+  height: 500px;
+  margin-left: 50px;
+  padding-right: 30px;
+}
+
+.text-g {
+  font-size: 30px;
+  font-weight: 700;
+  color: #09459c;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.text1 {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  color: #09459c;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+}
+.fa-check-double {
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: 200;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  color: #09459c;
+}
+.fa-shield-cat:hover {
+  color: #ffa590;
+  animation-name: move;
+  animation-duration: 0.6s;
+  animation-iteration-count: 6;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+.fa-shield-dog:hover {
+  color: bisque;
+  animation-name: move;
+  animation-duration: 0.6s;
+  animation-iteration-count: 6;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+.fa-vial-circle-check:hover {
+  color: #a3e48f;
+  animation-name: move;
+  animation-duration: 0.6s;
+  animation-iteration-count: 6;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+
+
+.text2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #474747;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 80px;
+  line-height: 30px;
+}
+
+.introduce {
+  width: 1500px;
+  font-size: 140px;
+  font-weight: 400;
+  color: #474747;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 80px;
+  line-height: 30px;
+  margin-top: 100px;
+}
+.text-wrapper {
+  width: 1700px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #494949;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+  margin-top: 30px;
+}
+
+.text3 {
+  margin-left: 40px;
+}
+.text4 {
+  margin-left: -50px;
+}
+
+.cat {
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.box {
+  margin-top: 150px;
+  width: 100%;
+  height: 700px;
+  background-color: #f7f7f7;
+
+  
+}
+
+.volunteer {
+  font-weight: 700;
+  text-align: left;
+  font-size: 40px;
+  padding-top: 70px;
+  padding-left: 470px;
+  line-height: 50px;
+}
+
+.volunteer2 {
+  font-weight: 300;
+  text-align: left;
+  font-size: 18px;
+  padding-left: 470px;
+  padding-top: 50px;
+  line-height: 27px;
+}
+
+.volunteer3 {
+  font-weight: 700;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 470px;
+  padding-top: 200px;
+  line-height: 30px;
+}
+
+.volunteer3:active {
+  color: #09459c;
+}
+.p4 {
+  width: 50%;
+  text-align: left;
+  float: left;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 300px;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+
+.p4:hover {
+  opacity: 70%;
+}
+p {
+  color: #09459c;
+  font-weight: 500;
+}
+
+.p2 {
+  width: 50%;
+  float: left;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 25px;
+  font-size: 15px;
+  line-break: auto;
+  padding-bottom: 100px;
+}
+
+.p3 {
+  width: 50%;
+  float: left;
+  padding-left: 200px;
+  padding-right: 200px;
+  line-height: 20px;
+  padding-top: 230px;
+  font-size: 15px;
+  font-weight: 900;
+  font-size: 25px;
+  color: #474747;
+}
+
+.fa-angles-right:active {
+  opacity: 10%;
+}
+
+.ka1 {
+  color: #ce5e44;
+  font-weight: 500;
+}
+
+.ka {
+  color: #09459c;
+  font-weight: 700;
+}
+
+.center {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  color: #09459c;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.center-img {display:block; margin:auto;
+  font-size: 15px;
+  font-weight: 400;
+  color: #494949;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  line-height: 20px;
+  padding-right: 250px;
+  padding-left: 180px;
+}
+
+.fa-location-dot {
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: 200;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+
+
+.center-text {
+  text-decoration: none;
+  width: 310px;
+  margin-left: 30px;
+}
+
+.center-textwrap {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #494949;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+  margin-top: 30px;
+  line-height: 22px;
+  padding-right: 250px;
+  padding-left: 230px;
+}
+
+.title {
+  color: #09459c;
+  font-weight: 700;
+  text-align: center;
+  font-size: 17px;
+}
+
+.help {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ce5e44;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-left: -30px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-suitcase-medical {
+  animation-name: move2;
+  animation-duration: 0.6s;
+  animation-iteration-count: 200;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.help-wrapper {
+  margin-top: 80px;
+  height: 550px;
+  background-color: #f1f1f1;
+}
+
+.help-text {
+  width: 30%;
+  color: #474747;
+  font-size: 18px;
+  text-align: center;
+  float: left;
+  margin: 0 auto;
+  margin-left: 120px;
+  line-height: 30px;
+  padding-top: 30px;
+}
+
+.help-text2 {
+  width: 30%;
+  color: #474747;
+  font-size: 18px;
+  text-align: center;
+  float: left;
+  margin: 0 auto;
+  line-height: 30px;
+  padding-top: 30px;
+}
+
+.help-text3 {
+  width: 30%;
+  color: #474747;
+  font-size: 18px;
+  text-align: center;
+  float: left;
+  margin: 0 auto;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+.title2 {
+  color: #09459c;
+  font-weight: 700;
+}
+
+.fa-file-pen {
+  font-size: 80px;
+  color: #474747;
+  padding-bottom: 30px;
+}
+.fa-file-pen:hover {
+  color: #ce5e44;
+}
+.fa-paste {
+  font-size: 85px;
+  color: #474747;
+  padding-bottom: 30px;
+}
+
+.fa-paste:hover {
+  color: #ce5e44;
+}
+
+.fa-sack-dollar {
+  font-size: 80px;
+  color: #474747;
+  padding-bottom: 30px;
+}
+
+.fa-sack-dollar:hover {
+  color: #ce5e44;
+}
+
+.explain {
+  width: 100%;
+  font-size: 17px;
+  font-weight: 400;
+  color: #474747;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  line-height: 25px;
+  color: #6b6b6b;
+}
+
+.footer-wrapper {
+  width: 100%;
+  height: 120px;
+  background-color: #e6e6e6;
+}
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <a href="#"><img src="https://blog.kakaocdn.net/dn/bcRYe4/btrs0vsFdS0/Pmfve985bd7hEy2m1ouLKk/img.jpg" width="257px" height="70px"/></a>
+      <a href="#first">인사말</a> &nbsp; <a href="#one">카라소개</a> &nbsp;
+      <a href="#two">봉사소식</a> &nbsp; <a href="#center">센터기관</a>&nbsp;
+      <a href="#help">구조지원</a> &nbsp;
+    </div>
+
+    <div class="header_img">
+      <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEwMjdfMTQ4%2FMDAxNjAzNzg5MjAzNTkx.64nHzomznk0Dov5u3x_-a7sIeh4sTkBtma54v92zjF4g._X5QTwdHDQgSsWgD0QrI11nTlVW4g4aKqG6RnVsUvjsg.JPEG.bakhonggeun%2F%25C4%25AB%25B6%25F3_%25B4%25F5%25BA%25BD%25BC%25BE%25C5%25CD_%25B0%25B3%25B0%25FC%25BD%25C4_%25286%2529.JPG&type=sc960_832" width="600px" height="450px"/>
+    </div>
+
+    <p id="first"></p>
+
+    <div class="text-g">
+      <i class="fa-solid fa-check-double"></i> &nbsp;&nbsp;카라 동물병원(더봄센터)
+    </div>
+    <div class="greeting">
+      <img src="https://postfiles.pstatic.net/MjAyMTAxMTJfMjI4/MDAxNjEwNDE5MTc0NzIx.N4SHjM525PMg4i7QOxpK5a3CyVxDY_7316xfZY7njCAg.01tD9OoIHBEB7CjQr-92vjAC5X-pUIwH37cGPSr6sHMg.JPEG.animalkara/7.jpg?type=w773" width="350px" height="400px"/>
+    </div>
+
+    <div class="greeting2">
+      더봄센터에 미리 병원 아이들을 맞이할 장소를 준비하고서 테크니션 선생님들과 활동가들이 동물들을 품에 안고 달래며 최대한 서둘러 달려 아이들은 안전히 더봄센터에 도착했습니다. 현재 동물들은 컨디션을 잘 유지하며 무리 없이 잘 적응하고 있습니다. 이사도 잘 해낸 기특한 동물친구들, 더봄에서 더 잘 지낼 수 있도록 노력하겠습니다.병원에서는 아픈 동물들이 입원해 있다 보니 세심한 돌봄과 치료가 이루어지고 있습니다. 입원장 청소로 시작하여 신부전 초기인 #카라_마리 의 수액 처치, 하반신 마비로 스스로 배뇨를 할 수 없는 #카라_길남 이와 #카라_미라클 의 압박배뇨 등 병원의 아침은 더욱 분주하게 돌아갑니다.더봄센터에서는 병원진료를 통해 동물들이 초기에 질병을 발견하고 신속하게 치료하여 건강을 유지할 수 있도록, 또 주기적인 건강관리를 통해 평생가족을 만날 수 있도록, 모든 동물들이 병원 갈 일 없는 그날까지 더 노력하겠습니다. 
+6년 넘게 동물들을 살리기 위해 최선을 다하며 수많은 감동 사연을 써 왔던 카라 동물병원, 이제 정든 더불어숨센터를 떠나 더봄센터를 중심으로한 의료 활동을 앞두고 있습니다. 이로써 우선 더봄센터에서 보호중인 동물들의 치료와 입양이 더욱 원활해지고 카라의 "사지말고 입양하세요" 구호는 더 큰 힘을 얻게 될 것입니다.
+      카라 동물병원의 활동, 그리고 입원한 동물친구들 소식 곧 다시 전해 드리겠습니다. 저희 카라의 행보, 동물병원의 결단과 앞날을 응원하며 지켜봐 주세요.함께 걸어와준 봉사자분들 덕분에 저희는 여기까지 올 수 있었습니다. 저희는 더 살펴보는 공존의 배움터가 되고, 동물 친구들한테는 더 따스하고 포근한 봄 같은 안식처가 되길 빕니다. 
+
+    </div>
+
+
+    
+
+   
+  
+
+   
+
+    <p id="help"></p>
+    <div class="help-wrapper">
+      <div class="help">
+        <i class="fa-solid fa-suitcase-medical"></i> &nbsp;&nbsp; 
+      </div>
+      
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+
+  <footer>
+    <div class="footer-wrapper">
+      <div class="footer">
+        (사)동물권행동 카라 서울시 마포구 잔다리로 122 (우) 03998 &nbsp;&nbsp;
+        &nbsp; &nbsp; &nbsp;대표: 전진경<br />
+        MAIL: info@ekara.org &nbsp; &nbsp;TEL: 02-3482-0999 &nbsp;&nbsp;FAX :
+        02-3482-8835 &nbsp; &nbsp;사업자등록번호: 114-82-09801
+        <br />
+        COPYRIGHT 2018 KARA. ALL RIGHTS RESERVED
+      </div>
+    </div>
+  </footer>
+</html>
